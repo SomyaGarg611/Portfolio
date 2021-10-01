@@ -33,13 +33,15 @@ nav{
 
 
 #profile-pic{
-    width: 30%;
+    width: 50%;
     height: 500px;
     margin: auto;   
-    background-image: url(/portfolio/img/portfolio.somya.jpg);
-    background-size: cover;
+    background-image: url(/portfolio/img/circle.portfolio.png);
+    background-size: 50%;
     background-repeat: no-repeat;
-     -webkit-filter: blur(0.5px); 
+     /* -webkit-filter: blur(0.5px); */
+     text-align: center;
+     float: right;
 }
 .logo span{
     color: brown;
@@ -48,7 +50,30 @@ nav{
     background: brown;
 }
 .text{
-    color: cadetblue;
+    color: rgb(173, 221, 223);
     font-size: 20px;
     position: absolute;
+    bottom: 300px;
+    letter-spacing: 5px;
+    padding-left: 8%;
+}
+.text p{
+    size: 50px;
+}
+.info{
+    font-weight: bold;
+}
+.info h1{
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    color: rgb(54, 4, 4);
+}
+.info p{
+    font-size: 25px;
+    color: rgb(10, 1, 1);
+    text-align: center;
+    font-style: italic;
+    padding-left: 40px;
+    padding-right: 40px;
 }
