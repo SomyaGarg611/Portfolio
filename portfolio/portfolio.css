@@ -35,7 +35,7 @@ nav{
 #profile-pic{
     width: 50%;
     height: 500px;
-    margin: auto;   
+    margin-top: 50px;   
     background-image: url(/portfolio/img/circle.portfolio.png);
     background-size: 50%;
     background-repeat: no-repeat;
@@ -68,6 +68,7 @@ nav{
     justify-content: center;
     display: flex;
     color: rgb(54, 4, 4);
+    background-color: rgb(73, 96, 109);
 }
 .info p{
     font-size: 25px;
@@ -76,4 +77,59 @@ nav{
     font-style: italic;
     padding-left: 40px;
     padding-right: 40px;
+    /* background-color: rgb(94, 155, 155); */
 }
+#about{
+    background-color:rgb(179, 153, 153);
+}
+#skills h1{
+    background-color: rgb(73,96,109);
+    justify-content: center;
+    display: flex;
+font-size: 50px;
+color: rgb(54, 4, 4);
+}
+.tech { 
+    font-style: oblique;
+    background-color: rgb(94, 155, 155);
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    font-size: 25px;
+ font-weight: bold;   
+}
+.inter{
+    font-style: oblique;
+    background-color: rgb(94, 155, 155);
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+#skills{
+    background-color: rgb(94, 155, 155);
+}
+.icon i{
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    margin:5px 0px;
+    background: cadetblue;
+    letter-spacing: 5px;
+}
+.icon i:hover{
+    background: transparent;
+    transition: 0.4s;
+    border: 1px solid black;
+    color: black;
+}
+.icon h1{
+    font-style: oblique;
+    font-size: 50px;
+}
+.icon{
+    background-color: rgb(179, 153, 153);
+    text-align: center;
+    
+} 
