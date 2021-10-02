@@ -126,7 +126,7 @@ color: rgb(54, 4, 4);
     background: transparent;
     transition: 0.4s;
     border: 1px solid black;
-    color: black;
+    color: black;                    
 }
 .icon h1{
     font-style: oblique;
