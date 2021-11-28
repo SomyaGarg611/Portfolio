@@ -1,11 +1,10 @@
-
 header{
     overflow: hidden;
     width: 100%;
     height: 100vh;
     background: url("../img/portfolio.background.jpeg");
-    background-size: cover;
-    background-position: right,center  ;
+     background-size: cover;
+    background-position: center  ;
     background-repeat: no-repeat,no-repeat ;
 }
 .logo{
@@ -24,14 +23,13 @@ header{
 .menu{
     margin-right: 100px ;
     background: rgb(233, 200, 200);
-
+ 
 }
 nav{
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
-
 
 #profile-pic{
     width: 50%;
@@ -86,22 +84,47 @@ nav{
 #about{
     background-color:rgb(179, 153, 153);
 }
+
 #skills h1{
     background-color: rgb(73,96,109);
     justify-content: center;
     display: flex;
-font-size: 50px;
-color: rgb(54, 4, 4);
+    font-size: 50px;
+    color: rgb(54, 4, 4);
 }
-.tech { 
-    font-style: oblique;
-    background-color: rgb(94, 155, 155);
-    padding-left: 40px;
-    padding-right: 40px;
-    text-align: center;
-    font-size: 25px;
- font-weight: bold;   
+
+.c img{
+    width: 15%;
+    height: 30%;
+    padding: 60px;
+    position:absolute;
+    left: 15%;
 }
+.html img{
+    width: 20%;
+    height: 35%;
+    padding: 60px; 
+    position:absolute;
+    left: 58%;
+    top: 185%;
+}
+.css img{
+    width: 15%;
+    height: 30%;
+    padding: 60px;
+    position: relative;
+    margin-top: 20%;
+    left: 15%;
+}
+.js img{
+    width: 25%;
+    height: 45%;
+    position:absolute;
+    left: 58%;
+    top: 235%;
+    padding: 60px;
+}
+
 .inter{
     font-style: oblique;
     background-color: rgb(94, 155, 155);
@@ -146,7 +169,8 @@ color: rgb(54, 4, 4);
 }
 @media only screen and (max-width: 770px){
     header{
-        background: url("/portfolio/img/portfolio.background.jpeg");
+        background: url("../img/portfolio.background.jpeg");
+        /* background-color: linen ; */
         background-size: cover;
     }
     .menu a{display: none;}
@@ -154,10 +178,10 @@ color: rgb(54, 4, 4);
         left: 10px;
     }
     .text{
-        bottom: 10px;
+        bottom: 50px;
         font-size: 15px;
     }
     #about{
         flex-basis: 100%;
-    }
-}
+    } 
+}  
